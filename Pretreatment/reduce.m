@@ -14,6 +14,9 @@ for i=1:le
     t2=1;
     for j=1:wi
        j1=ceil(b*j);
+       if j1 > n
+           j1 = j1-1;
+       end
         Y = double(g(t1:i1,t2:j1));
         I(i,j)=ceil(sum(sum(Y))/((i1-t1+1)*(j1-t2+1)));
        t2=j1+1;

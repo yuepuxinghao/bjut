@@ -42,5 +42,5 @@ while hasFrame(vidObj)
     toc;
     
     figure(2), imshow(segmentationMap), title('Segmentation');
-    imwrite(segmentationMap,strcat('./background/',num2str(i),'.png'));
+    imwrite(segmentationMap,strcat('./background/',num2str(i,'%03d'),'.png'));
 end
