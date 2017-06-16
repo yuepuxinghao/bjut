@@ -1,0 +1,7 @@
+1
+09806-07443-53955-64350-21751-41297
+2
+点击“activate_matlab.exe”进行激活
+3
+找到解压后的“crack”文件夹下的“license_standalone.lic”文件
+打开D:\Program Files\MATLAB\R2016a\bin\win64文件，将复制的dll文件粘贴在这个文件夹中
